@@ -1,6 +1,6 @@
 # GoMeet
 
-## Yakýndaki Ýnsanlarla tanýþýp eðlence aktiviteleri yapýlabilen sosyal mobil uygulama
+## YakÄ±ndaki Ä°nsanlarla tanÄ±ÅŸÄ±p eÄŸlence aktiviteleri yapÄ±labilen sosyal mobil hibrit uygulama
 
 <img src="./resim1.jpg">
 <img src="./resim2.jpg">
