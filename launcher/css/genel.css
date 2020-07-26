@@ -1,0 +1,276 @@
+body
+{
+	    padding-top: 50px;
+}.logo{
+	height:40px;margin-top:3px;margin-right:10px;display:block;float:left;padding-left:10px;
+}
+#counter-sag
+{
+	display:block;
+	float:right;
+
+}
+#menu-icon
+{
+	 height: 50px;
+    display: block;
+    float: left;
+    padding-top: 3px;
+    cursor: pointer;
+    border-left: 1px solid #e7e7e7;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.iconlar{
+	    color: #2195F2;
+		 font-size: 25px;
+		margin-top: 4px;
+}
+.menu-yazi
+{
+	    margin-top: -1px;
+		    font-size: 12px;
+}
+
+@media (min-width: 400px) and (max-width: 3600px) {
+    #content-containter{overflow: hidden;
+    width: 400px;
+	background-color:#FFF;
+	margin-left: auto;
+    margin-right: auto;
+	height:400px;
+	}
+	.baslik{margin-top:5px;}
+	#navbars{max-width:400px;margin-left: auto;margin-right: auto;}
+	body{background-color:#E4E4E4;}
+.baslik2{margin-top:5px;}
+	#navbars{max-width:400px;margin-left: auto;margin-right: auto;}
+	body{background-color:#E4E4E4;}
+
+	
+  }
+  
+  @media (min-width: 1px) and (max-width: 299px){
+  
+  .baslik{    margin-top: -12px;}
+  .baslik2{margin-top:4px;}
+  .daireyazi{font-size: 13px;}
+  }
+  @media (min-width: 300px) and (max-width: 399px)
+  {
+  	.baslik{margin-top:-12px;}
+	.baslik2{margin-top:4px;}
+  }
+
+.baslik{
+    background-color: #FFFFFF;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+	
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+    color: #CA990B;
+}
+.baslik2{
+    background-color: #FFFFFF;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+	
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+    color: #CA990B;
+}
+#gosterge{
+    margin-top: -40px;
+    width: 100%;
+	font-family: 'Oswald', sans-serif;
+	}
+	.daire{
+	text-align: center;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    width: 25%;
+	}
+	.daireyazi
+	{
+	margin-top: 18px;
+	font-family: 'Exo', sans-serif;
+	
+	}
+	#rowlar{
+	width: 100%;
+    height: 100px;
+	}
+	#mesajprofil{
+	    width: 40px;
+    height: 40px;
+    background: #DEDDDD;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+	float:left;
+	background-size:100%;
+	}
+	#mesajblok
+	{
+    width: 100%;
+    clear: both;
+    height: 49px;
+	padding-left: 9px;
+	}
+	#mesajblok:hover
+	{
+    background-color:#CCC;
+	}
+	#mesajicerik
+	{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5px;
+ 
+	}
+	#mesajicerik h3{
+	
+	font-family: 'Exo', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+	color: #444;
+	}
+	#mesajicerik p{
+	 
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+	color: #444;
+	font-family: 'Roboto Condensed', sans-serif;
+	}
+	#mesajicerik span{
+	font-weight:600;}
+	.profilicon
+	{
+	    width: 24px;
+    height: 24px;
+    margin: 7px 0px 0px 7px;
+	
+	}
+	
+	#menucount
+	{
+    width: 100%;
+    height: auto;
+		
+	}
+	#menusatir
+	{
+	width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #CCC;	
+	}
+	#menusatir:hover{background-color:#CCC;}
+	#menusolicon
+	{
+		width: 30px;
+    font-size: 26px;
+    height: 100%;
+    text-align: center;
+    margin-left: 10px;
+    color: purple;
+    line-height: 37px;
+	float:left;
+	}
+	#menuyazi
+	{
+	    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 17px;
+    color: #444;
+	}
+	#suanavatar{    
+	width: 230px;
+    height: 230px;
+    background: #222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+	position:relative;
+	}
+	#suanavatar img{
+		margin-left: auto;
+    margin-right: auto;
+    display: block;
+	    height: 100%;
+	}
+	#profilavatar img{
+		margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+	-webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;
+	}
+	#profilavatar_envarter
+	{
+		    float: right;
+    background: red;
+    height: 100px;
+    width: 100px;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+	}
+	#suanavatar-edit
+	{
+		    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #222;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+		
+	}
+	#profilavatar
+	{
+		    width: 100%;
+    height: 100px;
+    background: #222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    position: relative;
+	-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+	}
